@@ -19,7 +19,7 @@ func main() {
 	flag.Usage = usage
 	filePtr := flag.String("f", "img.jpg", "")
 	outputPtr := flag.String("o", "default", "")
-	vidPtr := flag.Bool("vid", false, "")
+	vidPtr := flag.Bool("v", false, "")
 	collagePtr := flag.Bool("collage", false, "")
 	flag.Parse()
 	file := *filePtr

@@ -26,10 +26,10 @@ Donate BTC: 36MQNEv8vkXgVuTa8HS1aJYzFTsuCmwNBK
 		fmt.Println(`Usage:
 	-f = Path to your photo/video                | Default: img.jpg in your current folder
 	-o = Change output destination with filename | Default: img_portacli.jpg/img_portacli.mp4 in your current folder
-    -vid = Create video portrait
-    -collage = Collage mode (only with photo)
+	-v = Create video portrait
+	-collage = Collage mode (only with photo)
 Example usages:
 		portacli -f /home/user/myphoto.jpg -o /home/user/outphoto.jpg
-		portacli -f /home/user/myphoto.jpg -vid`)
+		portacli -f /home/user/myphoto.jpg -v`)
 	}
 )
